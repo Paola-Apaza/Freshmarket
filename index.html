@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container-form register hide">
+        <div class="information">
+             <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Si ya tienes una cuenta, Inicia Sesión aqui</p>
+                <input type="button" value="Registrarse" id="sign-up">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Registrarse</h2>
+                <p>Crea una nueva cuenta o</p>
+                <p>Usa tu email para registrarte</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-user'></i>
+                        <input type="text" placeholder="Nombre Completo">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" placeholder="Correo Electronico"> 
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-form login">
+        <div class="information">
+            <div class="info-childs">
+                <img src="https://i.pinimg.com/736x/de/34/a0/de34a07970574a1c52d0f6e90815dec5.jpg" alt="" style="width: 270px;
+                height: 420px; border-radius: 5%">
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar Sesión</h2>
+                <p>Iniciar Sesión con una cuenta</p>
+                <form class="form" method="post" action="verificar_usuario.php">
+                    <label>
+                        <i class='bx bx-user'></i>
+                        <input name="username" type="text" placeholder="Usuario" required> 
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input name="password" type="password" placeholder="Contraseña"required>
+                    </label>
+                    <input type="submit" value="Iniciar Sesión">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
