@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="menu container">
+      <a href="#" class="logo">FRESMARKET</a>
+      <input type="checkbox" id="menu"/>
+      <label for="menu">
+        <img src="images/menu.png" class="menu-icono" alt="menu">
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="login/index.html">Login</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <div>
+        <ul>
+          <li class="submenu">
+            <img id="img-carrito" src="images/car.svg" alt="car">
+            <div id="carrito">
+              <table id="lista-carrito">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <a href="#" id="vaciar-carrito"></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="header-content container">
+      <div class="header-text">
+        <span>Bienvenidos a Freshmarket</span>
+        <h1>"Tu mercado de confianza, cada día más fresco."</h1>
+        <p>
+          Freshmarket es un minimarket local comprometido 
+          con ofrecer productos frescos, de calidad y a 
+          precios accesibles para la comunidad. 
+          Con un enfoque en la comodidad y el servicio 
+          al cliente, Freshmarket se convierte en la opción 
+          ideal para satisfacer las necesidades diarias de
+          sus clientes, brindando desde alimentos frescos 
+          hasta artículos básicos en un ambiente cercano 
+          y amigable. En Freshmarket, cada detalle importa: 
+          trabajamos para que cada visita sea una experiencia
+          agradable y conveniente, apoyando la vida cotidiana 
+          de nuestros clientes con productos confiables y 
+          atención personalizada.
+        </p>
+        <div class="butons">
+          <a href="#" class="btn-1">Informacion</a>
+          <a href="#" class="btn-1">leer mas</a>
+        </div>
+      </div>
+      <div class="header-img">
+        <img src="images/bag.png" alt="">
+      </div>
+
+    </div>
+  </header>  
+  
+  <section class="oferts container">
+    <div class="ofert-1 b1">
+      <div class="ofert-txt">
+        <h3>Ofertas del dia!!</h3>
+        <a href="#">leer mas</a>
+      </div>
+      <div class="ofert-img">
+        <img src="images/s1.png" alt="">
+      </div>
+    </div>
+    <div class="ofert-1 b2">
+      <div class="ofert-txt">
+        <h3>Ofertas del dia!!</h3>
+        <a href="#">leer mas</a>
+      </div>
+      <div class="ofert-img">
+        <img src="images/s2.png" alt="">
+      </div>
+    </div>
+    <div class="ofert-1 b3">
+      <div class="ofert-txt">
+        <h3>Ofertas del dia!!</h3>
+        <a href="#">leer mas</a>
+      </div>
+      <div class="ofert-img">
+        <img src="images/s3.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <main class="products container">
+    <h2>Productos</h2>
+    <div class="box-container" id="lista-1">  
+      <div class="box">
+        <img src="images/pr1.png" alt="">
+        <div class="product-txt">
+          <h3>Producto</h3>
+          <p>calidad premium</p>
+          <p>Bs. 20</p>
+          <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/pr2.png" alt="">
+        <div class="product-txt">
+          <h3>Producto</h3>
+          <p>calidad premium</p>
+          <p>Bs. 20</p>
+          <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/pr3.png" alt="">
+        <div class="product-txt">
+          <h3>Producto</h3>
+          <p>calidad premium</p>
+          <p>Bs. 20</p>
+          <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/pr4.png" alt="">
+        <div class="product-txt">
+          <h3>Producto</h3>
+          <p>calidad premium</p>
+          <p>Bs. 20</p>
+          <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/pr5.png" alt="">
+        <div class="product-txt">
+          <h3>Producto</h3>
+          <p>calidad premium</p>
+          <p>Bs. 20</p>
+          <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar</a>
+        </div>
+      </div>
+    </div>
+    <div class="btn-2" id="load-more">
+      cargar mas....
+    </div>
+  </main>
+
+  <section class="testimonial container">
+    <span>TEstimoniales</span>
+    <h2>que opinan nuestros clientes</h2>
+    <div class="testimonial content">
+      <div class="testimonial-1">
+        <p>Opiniones a poner....</p>
+        <img src="images/starts.png" alt="">
+        <h4>otro texto...</h4>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content container">
+      <div class="link">
+        <h3>Otra informacion</h3>
+        <ul>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+        </ul>
+      </div>
+      <div class="link">
+        <h3>Otra informacion</h3>
+        <ul>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+        </ul>
+      </div>
+      <div class="link">
+        <h3>Otra informacion</h3>
+        <ul>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+        </ul>
+      </div>
+      <div class="link">
+        <h3>Otra informacion</h3>
+        <ul>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+          <li><a href="#">inf</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
